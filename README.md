@@ -14,7 +14,7 @@ Proyecto mecatrónico realizado con el kit STEM de Steren, donde se arman mecani
 
 ## Diagrama del circuito
 
-![Diagrama de flujo](imagenes/diagrama%20de%20flujo.jpeg)
+![diagrama de flujo](imagenes/diagrama%20de%20flujo.jpeg)
 
 
 ## Pseudocódigo
