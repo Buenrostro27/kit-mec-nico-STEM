@@ -12,7 +12,10 @@ Proyecto mecatrónico realizado con el kit STEM de Steren, donde se arman mecani
 
 ![Kit de programación](kit%20de%20programaci%C3%B3n.jpeg)
 
-## Secuencia del Robot Dibujante (simulación mecánica)
+## Diagrama del circuito
+
+![Diagrama de flujo](ruta/a/tu/imagen/diagrama%20de%20flujo.jpeg)
+
 
 ## Pseudocódigo
 Inicio  
