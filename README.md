@@ -14,20 +14,39 @@ Proyecto mecatrónico realizado con el kit STEM de Steren, donde se arman mecani
 
 ## Secuencia del Robot Dibujante (simulación mecánica)
 
-Cada instrucción representa un pin en la rueda codificadora.
+## Pseudocódigo
+Inicio  
+Esperar que el botón sea presionado  
+Mientras no termine el dibujo  
+→ Mover Servo X  
+→ Mover Servo Y  
+→ Esperar  
+→ Cambiar posición  
+Fin  
+Fin
 
-```python
-instrucciones = [
-    "avanzar",
-    "girar derecha",
-    "avanzar",
-    "girar derecha",
-    "avanzar",
-    "girar derecha",
-    "avanzar",
-    "detenerse"
-]
-```
+## Subsistemas
+| Subsistema        | Función                        | Componentes            |
+|-------------------|-------------------------------|------------------------|
+| Control           | Ejecuta instrucciones          | Microcontrolador       |
+| Entrada           | Recibe señal del usuario       | Botón                  |
+| Actuador          | Mueve el lápiz                 | Servo X, Servo Y       |
+| Energía           | Alimenta todo                  | Fuente 5V              |
+
+## Componentes
+- Microcontrolador (Arduino o tarjeta del kit)
+- 2 servomotores
+- 1 botón
+- 1 resistencia de 10k ohm
+- Cables
+- Fuente de alimentación
+
+## Funcionamiento
+1. El usuario presiona el botón.
+2. El robot empieza a mover el lápiz.
+3. Los servos crean un patrón de dibujo.
+4. Se detienen al terminar la rutina.
+
 ## Recursos
 
 - [Manual del kit de Steren](https://descargas.steren.com.mx/K-730-V0.0-instr.pdf)  
