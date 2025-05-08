@@ -7,6 +7,7 @@ Proyecto mecatrónico realizado con el kit STEM de Steren, donde se arman mecani
 - Montserrat Buenrostro Hernández  
 - Citlali Serrano  
 - Johana Denisse Hernández  
+- Gonzalez Frías Jan Etzi Fernanda
 
 ## Imagen del proyecto
 
